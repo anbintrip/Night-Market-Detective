@@ -23,7 +23,7 @@ body{margin:0;min-width:320px;color:var(--ink);background:
 body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;opacity:.28;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90' viewBox='0 0 90 90'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.08'/%3E%3C/svg%3E")}
 button,a{font:inherit}button{color:inherit}a{color:var(--green);text-underline-offset:3px}
-button:focus-visible,a:focus-visible,[tabindex="0"]:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+button:focus-visible,a:focus-visible,[tabindex="0"]:focus-visible{outline:3px solid var(--gold);outline-offset:4px}.county:focus{outline:none}
 .skip-link{position:fixed;left:16px;top:-80px;z-index:200;background:var(--ink);color:#fff;padding:9px 14px;border-radius:8px}.skip-link:focus{top:12px}
 .topbar{height:76px;padding:0 clamp(20px,5vw,72px);display:flex;align-items:center;justify-content:space-between;gap:20px;
   position:sticky;top:0;z-index:30;border-bottom:1px solid var(--line);background:rgba(244,238,223,.9);backdrop-filter:blur(14px)}
@@ -141,7 +141,7 @@ h1 span{display:block}
 </main>
 
 <footer class="footer">
-  <p>資料最後確認：2026-09-10｜網站資訊僅供旅遊探索參考，實際營業狀況請以夜市及店家最新公告為準。</p>
+  <p>資料最後確認：2026-09-22｜網站資訊僅供旅遊探索參考，實際營業狀況請以夜市及店家最新公告為準。</p>
   <p>地圖行政區界線資料：<a href="https://maps.nlsc.gov.tw/pro/download.jsp" target="_blank" rel="noopener noreferrer">內政部國土測繪中心</a>，依<a href="https://data.gov.tw/license" target="_blank" rel="noopener noreferrer">政府資料開放授權條款</a>使用；圖形經簡化與重新排版。</p>
   <p class="footer-brand">@AnBin玩食生活｜夜市偵探</p>
   <p class="footer-social"><a href="https://www.instagram.com/anbintrip/" target="_blank" rel="noopener noreferrer">Instagram @anbintrip</a></p>
@@ -155,11 +155,12 @@ h1 span{display:block}
 <noscript><div class="noscript">此互動地圖需要啟用 JavaScript 才能查看夜市檔案。</div></noscript>
 <div class="validation" id="validation" aria-hidden="true"></div>
 
-<script type="application/json" id="site-data">{
+<script type="application/json" id="site-data">
+{
   "meta": {
     "projectName": "夜市偵探",
     "schemaVersion": "1.0.0",
-    "generatedAt": "2026-09-10T00:00:00+08:00",
+    "generatedAt": "2026-09-22T00:00:00+08:00",
     "verifiedOnly": true
   },
   "nightMarkets": [
@@ -1493,6 +1494,405 @@ h1 span{display:block}
       ],
       "status": "已查證",
       "verifiedAt": "2026-09-10"
+    },
+    {
+      "id": "NM-38",
+      "name": "屏東民族路夜市（屏市夜市）",
+      "county": "屏東縣",
+      "district": "屏東市",
+      "region": "南部",
+      "location": "民族路、復興路、興市巷一帶",
+      "types": [
+        "商圈型夜市",
+        "固定型夜市",
+        "在地型夜市"
+      ],
+      "openingDays": [
+        "每日"
+      ],
+      "openingHours": "各店家營業時間不同，請以店家最新公告為準。",
+      "summary": "與一般傍晚開市的流動夜市不同，屬市中心老店、小吃攤與巷弄店家聚集形成的生活型美食街區，部分商家白天即營業。",
+      "tags": [
+        "傳統小吃",
+        "在地美食",
+        "歷史老街"
+      ],
+      "transportation": "位於屏東市中心，可依屏東旅遊網與現場最新交通資訊前往。",
+      "parking": "周邊停車資訊可能異動，請依現場標示或最新公告為準。",
+      "officialWebsite": "https://www.i-pingtung.com/Pingtungfoodcate/%E5%B1%8F%E6%9D%B1%E5%B8%82",
+      "officialSocial": null,
+      "detectiveNote": "別名包含「屏東觀光夜市」「屏市夜市」「民族夜市」；屬老店與小吃攤聚落，不建立整體即時營業判斷。",
+      "vendorIds": [
+        "BIZ-153",
+        "BIZ-154"
+      ],
+      "sourceIds": [
+        "SRC-153",
+        "SRC-154",
+        "SRC-155",
+        "SRC-156",
+        "SRC-157"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "NM-35",
+      "name": "興仁夜市",
+      "county": "桃園市",
+      "district": "八德區",
+      "region": "北部",
+      "location": "桃園市八德區長興路 46 號",
+      "types": [
+        "固定型夜市",
+        "觀光夜市"
+      ],
+      "openingDays": [
+        "星期二",
+        "星期五",
+        "星期六",
+        "星期日"
+      ],
+      "openingHours": "17:00－00:00；實際營業狀況請以夜市或店家最新公告為準。",
+      "summary": "大型場地型夜市，分為美食與遊樂區，攤位規模大，適合親子及完整夜間行程。",
+      "tags": [
+        "在地美食",
+        "規模大型",
+        "親子同遊",
+        "購物娛樂"
+      ],
+      "transportation": "可依桃園觀光導覽網與現場最新交通資訊前往。",
+      "parking": "停車資訊可能異動，請依現場標示或夜市最新公告為準。",
+      "officialWebsite": "https://travel.tycg.gov.tw/zh-tw/consume/detail/1993",
+      "officialSocial": null,
+      "detectiveNote": "別名為「興仁花園夜市」或「八德興仁花園夜市」；公開名稱採桃園官方現行名稱「興仁夜市」。",
+      "vendorIds": [
+        "BIZ-147",
+        "BIZ-148"
+      ],
+      "sourceIds": [
+        "SRC-141",
+        "SRC-142",
+        "SRC-143"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "NM-40",
+      "name": "光華觀光夜市",
+      "county": "高雄市",
+      "district": "前鎮區、苓雅區交界一帶",
+      "region": "南部",
+      "location": "光華二路，三多二路至廣西街一帶",
+      "types": [
+        "商圈型夜市",
+        "固定型夜市",
+        "觀光夜市"
+      ],
+      "openingDays": [
+        "每日"
+      ],
+      "openingHours": "17:00－01:00；實際營業狀況請以夜市或店家最新公告為準。",
+      "summary": "沿光華二路形成的在地型美食街，具有多家經營二十年以上的老店，南部麵食、內臟湯品與冰品辨識度高。",
+      "tags": [
+        "傳統小吃",
+        "在地美食"
+      ],
+      "transportation": "可依高雄旅遊網與現場最新交通資訊前往。",
+      "parking": "周邊停車資訊可能異動，請依現場標示或最新公告為準。",
+      "officialWebsite": "https://khh.travel/zh-tw/board-and-lodging/night-market/",
+      "officialSocial": null,
+      "detectiveNote": "訂餐平台僅用於支持近期接單與品項，不採用平台價格、評分或使用者評論。",
+      "vendorIds": [
+        "BIZ-157",
+        "BIZ-158"
+      ],
+      "sourceIds": [
+        "SRC-165",
+        "SRC-166",
+        "SRC-167",
+        "SRC-168",
+        "SRC-169"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "NM-31",
+      "name": "華西街觀光夜市",
+      "county": "臺北市",
+      "district": "萬華區",
+      "region": "北部",
+      "location": "華西街、廣州街一帶，鄰近龍山寺",
+      "types": [
+        "商圈型夜市",
+        "固定型夜市",
+        "觀光夜市"
+      ],
+      "openingDays": [
+        "每日"
+      ],
+      "openingHours": "各店家營業時間不同，請以夜市或店家最新公告為準。",
+      "summary": "臺灣早期規劃的觀光夜市之一，鄰近龍山寺，保留艋舺老城區、傳統小吃與老店聚落特色。",
+      "tags": [
+        "傳統小吃",
+        "在地美食",
+        "歷史老街",
+        "觀光客熱門"
+      ],
+      "transportation": "可搭乘臺北捷運至龍山寺站，再步行前往。",
+      "parking": "周邊停車資訊可能異動，請依現場標示或最新公告為準。",
+      "officialWebsite": "https://travel.taipei/zh-tw/attraction/details/1535",
+      "officialSocial": null,
+      "detectiveNote": "網站只描述華西街本店與夜市範圍；代表商家若有其他據點，不混入其他據點資訊。",
+      "vendorIds": [
+        "BIZ-139",
+        "BIZ-140"
+      ],
+      "sourceIds": [
+        "SRC-129",
+        "SRC-130",
+        "SRC-131"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "NM-34",
+      "name": "汐止觀光夜市",
+      "county": "新北市",
+      "district": "汐止區",
+      "region": "北部",
+      "location": "水源路一段至新興路間的臺鐵橋下",
+      "types": [
+        "固定型夜市",
+        "觀光夜市"
+      ],
+      "openingDays": [
+        "每日"
+      ],
+      "openingHours": "各攤商營業時間不同，請以夜市或店家最新公告為準。",
+      "summary": "位於臺鐵橋下、鄰近汐止車站及黃昏市場，屬公辦公營、動線相對集中的夜市。",
+      "tags": [
+        "傳統小吃",
+        "在地美食"
+      ],
+      "transportation": "可搭乘臺鐵至汐止車站，再步行前往。",
+      "parking": "周邊停車資訊可能異動，請依現場標示或最新公告為準。",
+      "officialWebsite": "https://newtaipei.travel/zh-tw/tour/1038",
+      "officialSocial": null,
+      "detectiveNote": "已排除誤列的「陳媽媽牛肉河粉」；政府名單顯示該店屬臺中忠孝路觀光夜市。",
+      "vendorIds": [
+        "BIZ-145",
+        "BIZ-146"
+      ],
+      "sourceIds": [
+        "SRC-138",
+        "SRC-139",
+        "SRC-140",
+        "SRC-75"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "NM-33",
+      "name": "三和觀光夜市",
+      "county": "新北市",
+      "district": "三重區",
+      "region": "北部",
+      "location": "中央北路，由重新公有零售市場延伸至三和路",
+      "types": [
+        "商圈型夜市",
+        "固定型夜市",
+        "觀光夜市"
+      ],
+      "openingDays": [
+        "每日"
+      ],
+      "openingHours": "17:00－00:00；實際營業狀況請以夜市或店家最新公告為準。",
+      "summary": "緊鄰捷運臺北橋站，保有三重在地生活感，兼具服飾、生活用品與數十年小吃老店。",
+      "tags": [
+        "傳統小吃",
+        "在地美食",
+        "購物娛樂"
+      ],
+      "transportation": "可搭乘臺北捷運至臺北橋站，再步行前往。",
+      "parking": "周邊停車資訊可能異動，請依現場標示或最新公告為準。",
+      "officialWebsite": "https://newtaipei.travel/zh-tw/Attractions/Detail/110341",
+      "officialSocial": null,
+      "detectiveNote": "官方資料記載近 300 家攤商；網站代表商家僅列本次已查證項目。",
+      "vendorIds": [
+        "BIZ-143",
+        "BIZ-144"
+      ],
+      "sourceIds": [
+        "SRC-135",
+        "SRC-136",
+        "SRC-137"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "NM-36",
+      "name": "豐原廟東復興商圈（廟東夜市）",
+      "county": "臺中市",
+      "district": "豐原區",
+      "region": "中部",
+      "location": "慈濟宮旁、中正路 167 巷及周邊商圈",
+      "types": [
+        "商圈型夜市",
+        "固定型夜市"
+      ],
+      "openingDays": [
+        "每日"
+      ],
+      "openingHours": "各店家營業時間不同，白天至晚間皆有店家營業；請以店家最新公告為準。",
+      "summary": "依附慈濟宮及復興商圈發展的老街型美食聚落，白天至晚間皆有店家營業，與純晚間流動夜市型態不同。",
+      "tags": [
+        "傳統小吃",
+        "在地美食",
+        "歷史老街",
+        "觀光客熱門"
+      ],
+      "transportation": "可搭乘臺鐵至豐原車站，再步行前往慈濟宮周邊。",
+      "parking": "周邊停車資訊可能異動，請依現場標示或最新公告為準。",
+      "officialWebsite": "https://travel.taichung.gov.tw/zh-tw/Attractions/ListByClassification",
+      "officialSocial": null,
+      "detectiveNote": "類型以「商圈型／廟口型」理解，不應只描述為流動夜市。",
+      "vendorIds": [
+        "BIZ-149",
+        "BIZ-150"
+      ],
+      "sourceIds": [
+        "SRC-144",
+        "SRC-145",
+        "SRC-146",
+        "SRC-147",
+        "SRC-148"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "NM-37",
+      "name": "東門夜市",
+      "county": "宜蘭縣",
+      "district": "宜蘭市",
+      "region": "東部",
+      "location": "聖後街、和睦路及東港陸橋周邊",
+      "types": [
+        "固定型夜市",
+        "在地型夜市"
+      ],
+      "openingDays": [
+        "每日"
+      ],
+      "openingHours": "約 17:00－00:00；實際營業狀況請以夜市或店家最新公告為準。",
+      "summary": "鄰近宜蘭火車站，以東港陸橋下及聖後街為主要範圍，規模不大但老攤集中、在地生活感強。",
+      "tags": [
+        "傳統小吃",
+        "在地美食"
+      ],
+      "transportation": "可搭乘臺鐵至宜蘭車站，再步行前往。",
+      "parking": "周邊停車資訊可能異動，請依現場標示或最新公告為準。",
+      "officialWebsite": "https://travel.yilan.gov.tw/zh-tw/attraction/233/",
+      "officialSocial": null,
+      "detectiveNote": "嘟好燒目前僅確認 2026 年週末重新出攤，不可寫成每日固定營業。",
+      "vendorIds": [
+        "BIZ-151",
+        "BIZ-152"
+      ],
+      "sourceIds": [
+        "SRC-149",
+        "SRC-150",
+        "SRC-151",
+        "SRC-152"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "NM-39",
+      "name": "忠孝路觀光夜市",
+      "county": "臺中市",
+      "district": "南區",
+      "region": "中部",
+      "location": "忠孝路，約由臺中路至國光路之間",
+      "types": [
+        "商圈型夜市",
+        "固定型夜市",
+        "觀光夜市"
+      ],
+      "openingDays": [
+        "每日"
+      ],
+      "openingHours": "各店家營業時間不同，傍晚後店家較集中；請以店家最新公告為準。",
+      "summary": "以臺灣傳統小吃與餐館為主的老牌街道型夜市，鄰近第三市場，傍晚後形成夜間美食街。",
+      "tags": [
+        "傳統小吃",
+        "在地美食"
+      ],
+      "transportation": "位於臺中市南區，可依臺中市觀旅局及現場最新交通資訊前往。",
+      "parking": "周邊停車資訊可能異動，請依現場標示或最新公告為準。",
+      "officialWebsite": "https://www.south.taichung.gov.tw/831936/2412251/2829165/2829178",
+      "officialSocial": null,
+      "detectiveNote": "未納入莊家臭豆腐，因目前未找到與其他候選商家同等強度的近期營運證據。",
+      "vendorIds": [
+        "BIZ-155",
+        "BIZ-156"
+      ],
+      "sourceIds": [
+        "SRC-158",
+        "SRC-159",
+        "SRC-160",
+        "SRC-161",
+        "SRC-162",
+        "SRC-163",
+        "SRC-164"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "NM-32",
+      "name": "景美夜市",
+      "county": "臺北市",
+      "district": "文山區",
+      "region": "北部",
+      "location": "景美街、景華街一帶",
+      "types": [
+        "商圈型夜市",
+        "固定型夜市",
+        "在地型夜市"
+      ],
+      "openingDays": [
+        "每日"
+      ],
+      "openingHours": "18:00－00:00；實際營業狀況請以夜市或店家最新公告為準。",
+      "summary": "白天市場、晚上夜市的街區型態，鄰近捷運景美站，兼有老店與學生、上班族日常小吃。",
+      "tags": [
+        "傳統小吃",
+        "在地美食"
+      ],
+      "transportation": "可搭乘臺北捷運至景美站，再步行前往。",
+      "parking": "周邊停車資訊可能異動，請依現場標示或最新公告為準。",
+      "officialWebsite": "https://foodtracer.health.gov.taipei/UniPages/CustPageView?fid=8cd4e2c6-ee6a-486b-b827-27dad0f85b3e&market_id=TPC1&mid=ae7e0dd6-468a-4acd-83eb-9e708c9e6073",
+      "officialSocial": null,
+      "detectiveNote": "「無名水煎包鍋貼」與附近的「景美上海生煎包」為不同商家，不可合併。",
+      "vendorIds": [
+        "BIZ-141",
+        "BIZ-142"
+      ],
+      "sourceIds": [
+        "SRC-132",
+        "SRC-133",
+        "SRC-134"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
     }
   ],
   "vendors": [
@@ -4760,6 +5160,502 @@ h1 span{display:block}
       ],
       "status": "已查證",
       "verifiedAt": "2026-09-10"
+    },
+    {
+      "id": "BIZ-144",
+      "nightMarketId": "NM-33",
+      "name": "阿文餛飩鹹湯圓",
+      "category": "鹹食小吃",
+      "signatureItems": "餛飩鹹圓、綜合湯",
+      "summary": "三和觀光夜市內的湯品小吃攤，以餛飩與鹹湯圓為主。",
+      "businessInfo": "營業時間請以店家最新公告為準。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "是",
+      "recommendationReasons": [
+        "在地代表性",
+        "地方政府或觀光單位",
+        "多家媒體提及"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "官方夜市頁直接介紹，另有 2026 年實地資料交叉確認。",
+      "sourceIds": [
+        "SRC-135",
+        "SRC-137"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "BIZ-142",
+      "nightMarketId": "NM-32",
+      "name": "無名水煎包鍋貼",
+      "category": "鹹食小吃",
+      "signatureItems": "鮮肉、韭菜、高麗菜水煎包及鍋貼",
+      "summary": "景美街上的無名小吃攤，以多種口味水煎包與鍋貼為主。",
+      "businessInfo": "營業時間請以店家最新公告為準。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "待確認",
+      "recommendationReasons": [
+        "地方政府或觀光單位",
+        "多家媒體提及",
+        "編輯選錄"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "與附近「景美上海生煎包」為不同商家，不可合併。",
+      "sourceIds": [
+        "SRC-132",
+        "SRC-134"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "BIZ-145",
+      "nightMarketId": "NM-34",
+      "name": "剉冰女王",
+      "category": "甜點冰品",
+      "signatureItems": "創意剉冰、燉蛋冰",
+      "summary": "汐止觀光夜市的冰品攤，以創意剉冰與燉蛋冰為代表。",
+      "businessInfo": "營業時間請以店家最新公告為準。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "待確認",
+      "recommendationReasons": [
+        "在地代表性",
+        "地方政府或觀光單位",
+        "官方推薦"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "經濟部名攤資料與新北市官方夜市頁均可確認夜市關聯。",
+      "sourceIds": [
+        "SRC-138",
+        "SRC-75"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "BIZ-150",
+      "nightMarketId": "NM-36",
+      "name": "金樹冰果室",
+      "category": "甜點冰品",
+      "signatureItems": "鳳梨冰",
+      "summary": "豐原廟東商圈的冰品老店，以鳳梨冰為代表。",
+      "businessInfo": "各店家營業時間不同，請以店家最新公告為準。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "是",
+      "recommendationReasons": [
+        "在地代表性",
+        "地方政府或觀光單位",
+        "官方推薦"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "衛福部 115 年稽查資料可確認店名、位置與鳳梨冰，且檢驗結果合格。",
+      "sourceIds": [
+        "SRC-147",
+        "SRC-148"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "BIZ-148",
+      "nightMarketId": "NM-35",
+      "name": "豬桑三代手作豬血糕",
+      "category": "鹹食小吃",
+      "signatureItems": "手作豬血糕",
+      "summary": "興仁夜市的豬血糕攤，以三代手作傳承作為品牌特色。",
+      "businessInfo": "營業時間請以店家最新公告為準。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "待確認",
+      "recommendationReasons": [
+        "在地代表性",
+        "官方推薦",
+        "編輯選錄"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "經濟部 114 年度計畫可確認店名、夜市與攤位關聯；不採用價格資訊。",
+      "sourceIds": [
+        "SRC-143"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "BIZ-158",
+      "nightMarketId": "NM-40",
+      "name": "光華老店豬心冬粉",
+      "category": "鹹食小吃",
+      "signatureItems": "豬心冬粉",
+      "summary": "光華觀光夜市的內臟湯品與麵食店，以豬心冬粉為代表。",
+      "businessInfo": "營業時間請以店家最新公告為準。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "待確認",
+      "recommendationReasons": [
+        "在地代表性",
+        "地方政府或觀光單位",
+        "編輯選錄"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "政府抽驗資料支持店名與地址；近期商家資料僅用於佐證仍有營運資訊，不採用未確認細節。",
+      "sourceIds": [
+        "SRC-168",
+        "SRC-169"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "BIZ-155",
+      "nightMarketId": "NM-39",
+      "name": "味泉米糕",
+      "category": "鹹食小吃",
+      "signatureItems": "米糕、排骨湯",
+      "summary": "臺中忠孝路觀光夜市的米糕老店，以米糕與排骨湯為代表。",
+      "businessInfo": "營業時間請以店家最新公告為準。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "是",
+      "recommendationReasons": [
+        "在地代表性",
+        "多家媒體提及",
+        "編輯選錄"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "2026 年兩篇實地資料與媒體店家頁可交叉確認店址及營運。",
+      "sourceIds": [
+        "SRC-160",
+        "SRC-161",
+        "SRC-162"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "BIZ-153",
+      "nightMarketId": "NM-38",
+      "name": "阿狗切仔擔",
+      "category": "鹹食小吃",
+      "signatureItems": "粉腸、大腸、米粉、肉圓",
+      "summary": "屏東民族路夜市的老字號切仔擔，供應黑白切與米粉等在地小吃。",
+      "businessInfo": "營業時間請以店家最新公告為準。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "是",
+      "recommendationReasons": [
+        "在地代表性",
+        "地方政府或觀光單位",
+        "編輯選錄"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "官方旅遊頁可確認屏東市夜市第 28 攤及民族路店址。",
+      "sourceIds": [
+        "SRC-154",
+        "SRC-155"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "BIZ-156",
+      "nightMarketId": "NM-39",
+      "name": "正老牌麵線糊",
+      "category": "鹹食小吃",
+      "signatureItems": "肉羹麵線、蚵仔麵線、魷魚嘴麵線",
+      "summary": "忠孝路觀光夜市周邊的老牌麵線店，提供多種配料麵線。",
+      "businessInfo": "營業時間請以店家最新公告為準。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "是",
+      "recommendationReasons": [
+        "在地代表性",
+        "地方政府或觀光單位",
+        "多家媒體提及"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "臺中市觀旅局店家頁與媒體店家頁可確認店名與地址。",
+      "sourceIds": [
+        "SRC-163",
+        "SRC-164"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "BIZ-141",
+      "nightMarketId": "NM-32",
+      "name": "景美廖家古早味雞蛋糕",
+      "category": "甜點冰品",
+      "signatureItems": "古早味雞蛋糕",
+      "summary": "景美夜市的古早味點心攤，主打現烤雞蛋糕。",
+      "businessInfo": "營業時間請以店家最新公告為準。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "待確認",
+      "recommendationReasons": [
+        "地方政府或觀光單位",
+        "多家媒體提及",
+        "編輯選錄"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "店名與景美夜市關聯已由官方攤商名單及 2026 年實地資料交叉確認。",
+      "sourceIds": [
+        "SRC-132",
+        "SRC-133"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "BIZ-149",
+      "nightMarketId": "NM-36",
+      "name": "廟東清水排骨麵店",
+      "category": "鹹食小吃",
+      "signatureItems": "排骨酥麵、排骨酥米粉",
+      "summary": "豐原廟東商圈的代表性麵食老店，以排骨酥麵與米粉為主。",
+      "businessInfo": "各店家營業時間不同，請以店家最新公告為準。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "是",
+      "recommendationReasons": [
+        "在地代表性",
+        "地方政府或觀光單位",
+        "多家媒體提及"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "臺中官方照片頁明列店名，並有 2026 年實地資料交叉確認。",
+      "sourceIds": [
+        "SRC-144",
+        "SRC-146"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "BIZ-140",
+      "nightMarketId": "NM-31",
+      "name": "小王煮瓜",
+      "category": "鹹食小吃",
+      "signatureItems": "黑金滷肉飯、清湯瓜仔肉",
+      "summary": "華西街的老字號小吃店，以滷肉飯與瓜仔肉湯聞名。",
+      "businessInfo": "營業時間請以店家最新公告為準。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "是",
+      "recommendationReasons": [
+        "在地代表性",
+        "地方政府或觀光單位",
+        "多家媒體提及"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "只描述華西街本店；其他合作商品或據點不納入。",
+      "sourceIds": [
+        "SRC-131"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "BIZ-143",
+      "nightMarketId": "NM-33",
+      "name": "萬粒肉圓",
+      "category": "鹹食小吃",
+      "signatureItems": "肉圓、貢丸湯",
+      "summary": "三和觀光夜市的代表性傳統小吃，以肉圓與湯品為主。",
+      "businessInfo": "營業時間請以店家最新公告為準。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "是",
+      "recommendationReasons": [
+        "在地代表性",
+        "地方政府或觀光單位",
+        "多家媒體提及"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "官方夜市頁直接介紹，並有 2026 年媒體實訪佐證。",
+      "sourceIds": [
+        "SRC-135",
+        "SRC-136"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "BIZ-146",
+      "nightMarketId": "NM-34",
+      "name": "邱記龍鳳腿",
+      "category": "鹹食小吃",
+      "signatureItems": "龍鳳腿",
+      "summary": "汐止觀光夜市的傳統炸物攤，以龍鳳腿為代表品項。",
+      "businessInfo": "營業時間請以店家最新公告為準。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "待確認",
+      "recommendationReasons": [
+        "在地代表性",
+        "地方政府或觀光單位",
+        "官方推薦"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "取代前次誤列的陳媽媽牛肉河粉；本店的汐止夜市關聯有政府資料支持。",
+      "sourceIds": [
+        "SRC-139",
+        "SRC-140"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "BIZ-154",
+      "nightMarketId": "NM-38",
+      "name": "福記餛飩",
+      "category": "鹹食小吃",
+      "signatureItems": "餛飩湯、炸餛飩、麻醬麵",
+      "summary": "屏東民族夜市巷內的老字號餛飩店，以餛飩湯、炸餛飩及麵食為主。",
+      "businessInfo": "營業時間請以店家最新公告為準。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "是",
+      "recommendationReasons": [
+        "在地代表性",
+        "地方政府或觀光單位",
+        "多家媒體提及"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "夜市整體沒有統一營業時段，本店資訊須獨立呈現。",
+      "sourceIds": [
+        "SRC-156",
+        "SRC-157"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "BIZ-157",
+      "nightMarketId": "NM-40",
+      "name": "林家水餃麵食小館",
+      "category": "鹹食小吃",
+      "signatureItems": "林家水餃、餡餅、麵食",
+      "summary": "光華觀光夜市的麵食小館，以水餃、餡餅與麵食為主。",
+      "businessInfo": "營業時間請以店家最新公告為準。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "待確認",
+      "recommendationReasons": [
+        "在地代表性",
+        "多家媒體提及",
+        "編輯選錄"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "近期訂餐頁只用於確認店家仍接單與品項；不採用價格、評分或評論。",
+      "sourceIds": [
+        "SRC-167"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "BIZ-151",
+      "nightMarketId": "NM-37",
+      "name": "彭記蔥油餅",
+      "category": "鹹食小吃",
+      "signatureItems": "蔥油餅、加蛋蔥油餅",
+      "summary": "宜蘭東門夜市的代表性小吃攤，以現煎蔥油餅為主。",
+      "businessInfo": "營業時間請以店家最新公告為準。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "是",
+      "recommendationReasons": [
+        "在地代表性",
+        "地方政府或觀光單位",
+        "多家媒體提及"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "宜蘭官方夜市頁直接列為代表店家，並有 2026 年媒體資料佐證。",
+      "sourceIds": [
+        "SRC-149",
+        "SRC-151"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "BIZ-152",
+      "nightMarketId": "NM-37",
+      "name": "嘟好燒",
+      "category": "甜點冰品",
+      "signatureItems": "紅豆餡炸甜點「嘟好燒」",
+      "summary": "宜蘭傳統甜點，以紅豆餡炸點心「嘟好燒」為代表。",
+      "businessInfo": "2026 年報導確認週末限定出攤；實際時段請以店家最新公告為準。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "是",
+      "recommendationReasons": [
+        "在地代表性",
+        "地方政府或觀光單位",
+        "多家媒體提及"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "目前只確認週末重新出攤，不可寫成每日固定營業。",
+      "sourceIds": [
+        "SRC-149",
+        "SRC-152"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "BIZ-147",
+      "nightMarketId": "NM-35",
+      "name": "芙琳卡",
+      "category": "甜點冰品",
+      "signatureItems": "米製貝殼造型甜點",
+      "summary": "興仁夜市的米食甜點攤，以貝殼造型米製甜點為特色。",
+      "businessInfo": "營業時間請以店家最新公告為準；不採用官方店家頁中格式可疑的星期日時段。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "否",
+      "recommendationReasons": [
+        "在地代表性",
+        "地方政府或觀光單位",
+        "編輯選錄"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "星期日「00:00－11:30」與夜市整體時段不一致，不納入公開資料。",
+      "sourceIds": [
+        "SRC-142"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "BIZ-139",
+      "nightMarketId": "NM-31",
+      "name": "源芳刈包",
+      "category": "鹹食小吃",
+      "signatureItems": "刈包",
+      "summary": "華西街觀光夜市內的傳統臺灣小吃店，以刈包為代表品項。",
+      "businessInfo": "營業時間請以店家最新公告為準。",
+      "vegetarianOption": "待確認",
+      "localLegacy": "是",
+      "recommendationReasons": [
+        "在地代表性",
+        "地方政府或觀光單位",
+        "多家媒體提及"
+      ],
+      "officialWebsite": null,
+      "officialSocial": null,
+      "detectiveNote": "僅採用華西街本店資料，不混入其他據點。",
+      "sourceIds": [
+        "SRC-130"
+      ],
+      "status": "已查證",
+      "verifiedAt": "2026-09-22"
     }
   ],
   "sources": [
@@ -6286,23 +7182,25 @@ h1 span{display:block}
       "url": "https://www.moea.gov.tw/mns/populace/news/wHandNews_File.ashx?file_id=122138",
       "sourceType": "官方網站",
       "credibility": "A－官方或第一手資料",
-      "adoptedContent": "紅菱坊海苔玉米筍（武聖夜市）、牛B葫蘆王、金莎蛤仔、阿華黑輪（逢甲觀光夜市）及樂趣淘寶（東大門國際觀光夜市）的攤商名稱、所屬夜市與攤位資訊。",
-      "verificationNote": "經濟部商業發展署正式計畫名冊；用於確認攤商於114年度仍列入對應夜市，不推論每日營業時段。",
+      "adoptedContent": "紅菱坊海苔玉米筍（武聖夜市）、牛B葫蘆王、金莎蛤仔、阿華黑輪（逢甲觀光夜市）及樂趣淘寶（東大門國際觀光夜市）的攤商名稱、所屬夜市與攤位資訊；新增採用剉冰女王位於汐止觀光夜市82號攤及其代表冰品資訊。",
+      "verificationNote": "經濟部商業發展署正式計畫名冊；用於確認攤商於114年度仍列入對應夜市，不推論每日營業時段。2026-09-22新增汐止觀光夜市與剉冰女王關聯。",
       "publishedAt": null,
-      "checkedAt": "2026-09-09",
+      "checkedAt": "2026-09-22",
       "status": "可採用",
       "needsRecheck": false,
       "nightMarketIds": [
         "NM-21",
         "NM-2",
-        "NM-12"
+        "NM-12",
+        "NM-34"
       ],
       "vendorIds": [
         "BIZ-97",
         "BIZ-6",
         "BIZ-7",
         "BIZ-8",
-        "BIZ-24"
+        "BIZ-24",
+        "BIZ-145"
       ]
     },
     {
@@ -7235,9 +8133,774 @@ h1 span{display:block}
       "vendorIds": [
         "BIZ-136"
       ]
+    },
+    {
+      "id": "SRC-160",
+      "title": "http://Auntie.tw｜味泉米糕 2026實訪",
+      "url": "https://auntie.tw/weichung/",
+      "sourceType": "旅遊媒體",
+      "credibility": "C－單一非官方來源",
+      "adoptedContent": "2026年味泉米糕仍於忠孝路151號營業，以及米糕、排骨湯品項。",
+      "verificationNote": "只採用店名、地址、近期營運與品項；不採用價格及主觀評論。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "部分採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-39"
+      ],
+      "vendorIds": [
+        "BIZ-155"
+      ]
+    },
+    {
+      "id": "SRC-161",
+      "title": "女子的休假計劃｜味泉米糕 2026實訪",
+      "url": "https://girlsplan.com/wachumuq/",
+      "sourceType": "旅遊媒體",
+      "credibility": "C－單一非官方來源",
+      "adoptedContent": "2026年味泉米糕地址與近期營運的第二筆實地交叉資料。",
+      "verificationNote": "只作近期營運與地址交叉佐證，不採用價格及主觀評論。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "部分採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-39"
+      ],
+      "vendorIds": [
+        "BIZ-155"
+      ]
+    },
+    {
+      "id": "SRC-135",
+      "title": "新北市觀光旅遊網｜三和觀光夜市",
+      "url": "https://newtaipei.travel/zh-tw/Attractions/Detail/110341",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "三和觀光夜市位置、每日17:00－00:00、近300家攤商，以及萬粒肉圓、阿文餛飩鹹湯圓代表店家。",
+      "verificationNote": "官方頁於 2026-06-11 更新；營業資訊仍提醒以最新公告為準。",
+      "publishedAt": "2026-06-11",
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-33"
+      ],
+      "vendorIds": [
+        "BIZ-143",
+        "BIZ-144"
+      ]
+    },
+    {
+      "id": "SRC-154",
+      "title": "屏東旅遊網｜阿狗切仔擔",
+      "url": "https://www.i-pingtung.com/Pingtungfood/%E9%98%BF%E7%8B%97%E5%88%87%E4%BB%94%E6%93%94/%E5%B1%8F%E6%9D%B1%E5%B8%82",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "阿狗切仔擔店名、屏東市夜市第28攤／民族路57號及粉腸、大腸、米粉、肉圓品項。",
+      "verificationNote": "官方旅遊頁；營業時段仍以店家最新公告為準。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-38"
+      ],
+      "vendorIds": [
+        "BIZ-153"
+      ]
+    },
+    {
+      "id": "SRC-142",
+      "title": "桃園觀光導覽網｜芙琳卡",
+      "url": "https://travel.tycg.gov.tw/zh-tw/Consume/Detail/2867",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "芙琳卡店名、興仁夜市關聯、米製貝殼造型甜點與攤位資訊。",
+      "verificationNote": "星期日00:00－11:30格式可疑，該時段不採用；營業資訊改以最新公告為準。",
+      "publishedAt": "2025-05-14",
+      "checkedAt": "2026-09-22",
+      "status": "部分採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-35"
+      ],
+      "vendorIds": [
+        "BIZ-147"
+      ]
+    },
+    {
+      "id": "SRC-147",
+      "title": "臺中觀光旅遊網｜豐原廟東代表美食",
+      "url": "https://travel.taichung.gov.tw/zh-tw/tourist/tour/849",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "豐原廟東商圈特色與鳳梨冰為代表美食。",
+      "verificationNote": "用於商圈特色及金樹冰果室品項的官方交叉依據。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-36"
+      ],
+      "vendorIds": [
+        "BIZ-150"
+      ]
+    },
+    {
+      "id": "SRC-132",
+      "title": "臺北市食材登錄平台｜景美夜市攤商名單",
+      "url": "https://foodtracer.health.gov.taipei/UniPages/CustPageView?fid=8cd4e2c6-ee6a-486b-b827-27dad0f85b3e&market_id=TPC1&mid=ae7e0dd6-468a-4acd-83eb-9e708c9e6073",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "景美夜市位置、18:00－00:00營業資訊，以及景美廖家古早味雞蛋糕、無名水煎包鍋貼的夜市關聯。",
+      "verificationNote": "官方食材登錄頁於 2026-08-10 更新；不將名單外內容推論為固定營業。",
+      "publishedAt": "2026-08-10",
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-32"
+      ],
+      "vendorIds": [
+        "BIZ-141",
+        "BIZ-142"
+      ]
+    },
+    {
+      "id": "SRC-165",
+      "title": "高雄旅遊網｜光華觀光夜市",
+      "url": "https://khh.travel/zh-tw/board-and-lodging/night-market/",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "光華觀光夜市名稱、光華二路範圍及每日17:00－01:00營業資訊。",
+      "verificationNote": "官方夜市頁；仍提醒實際營業狀況以最新公告為準。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-40"
+      ],
+      "vendorIds": []
+    },
+    {
+      "id": "SRC-150",
+      "title": "宜蘭勁好玩｜宜蘭夜市巡禮",
+      "url": "https://travel.yilan.gov.tw/zh-tw/column/32/",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "東門夜市目前仍列入宜蘭縣官方夜市專題與旅遊脈絡。",
+      "verificationNote": "用於近期營運與夜市特色交叉確認。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-37"
+      ],
+      "vendorIds": []
+    },
+    {
+      "id": "SRC-149",
+      "title": "宜蘭勁好玩｜東門夜市",
+      "url": "https://travel.yilan.gov.tw/zh-tw/attraction/233/",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "東門夜市位置、約17:00－00:00，以及彭記蔥油餅、嘟好燒代表店家。",
+      "verificationNote": "官方夜市頁；各店實際營業日仍以最新公告為準。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-37"
+      ],
+      "vendorIds": [
+        "BIZ-151",
+        "BIZ-152"
+      ]
+    },
+    {
+      "id": "SRC-152",
+      "title": "聯合新聞網旅遊｜嘟好燒 2026復攤",
+      "url": "https://travel.udn.com/travel/story/7193/9676746",
+      "sourceType": "旅遊媒體",
+      "credibility": "B－可信媒體或多方交叉確認",
+      "adoptedContent": "嘟好燒於2026年重回東門夜市，現階段為週末限定出攤。",
+      "verificationNote": "只採用復攤與週末限定資訊；不推論每日營業。",
+      "publishedAt": "2026-08-07",
+      "checkedAt": "2026-09-22",
+      "status": "部分採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-37"
+      ],
+      "vendorIds": [
+        "BIZ-152"
+      ]
+    },
+    {
+      "id": "SRC-134",
+      "title": "Wisely｜景美無名水煎包鍋貼 2026實訪",
+      "url": "https://wisely.tw/read-34209.html",
+      "sourceType": "旅遊媒體",
+      "credibility": "C－單一非官方來源",
+      "adoptedContent": "景美街8號攤位、鮮肉／韭菜／高麗菜水煎包與鍋貼品項。",
+      "verificationNote": "只採用店名、位置與品項；不採用價格及主觀評論。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "部分採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-32"
+      ],
+      "vendorIds": [
+        "BIZ-142"
+      ]
+    },
+    {
+      "id": "SRC-153",
+      "title": "屏東旅遊網｜屏東市美食分類",
+      "url": "https://www.i-pingtung.com/Pingtungfoodcate/%E5%B1%8F%E6%9D%B1%E5%B8%82",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "屏東市民族路夜市周邊店家聚落與市中心美食脈絡。",
+      "verificationNote": "用於確認街區型美食聚落；不建立全街區統一營業時間。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-38"
+      ],
+      "vendorIds": []
+    },
+    {
+      "id": "SRC-163",
+      "title": "臺中觀光旅遊網｜正老牌麵線糊",
+      "url": "https://travel.taichung.gov.tw/zh-tw/shop/consume/2412",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "正老牌麵線糊店名、合作街70-2號及麵線類代表品項。",
+      "verificationNote": "官方店家頁；不推論即時營業狀態。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-39"
+      ],
+      "vendorIds": [
+        "BIZ-156"
+      ]
+    },
+    {
+      "id": "SRC-159",
+      "title": "臺中市南區區公所｜忠孝路觀光夜市",
+      "url": "https://www.south.taichung.gov.tw/831936/2412251/2829165/2829178",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "忠孝路觀光夜市為常態型街道夜市，位置約由臺中路至國光路間。",
+      "verificationNote": "官方地方資料，用於確認夜市型態及範圍。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-39"
+      ],
+      "vendorIds": []
+    },
+    {
+      "id": "SRC-138",
+      "title": "新北市觀光旅遊網｜汐止觀光夜市",
+      "url": "https://newtaipei.travel/zh-tw/tour/1038",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "汐止觀光夜市位於臺鐵橋下、鄰近車站、公辦公營、83個攤位及剉冰女王代表資訊。",
+      "verificationNote": "官方頁於 2026-09-21 更新；不推論每個攤位固定營業時間。",
+      "publishedAt": "2026-09-21",
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-34"
+      ],
+      "vendorIds": [
+        "BIZ-145"
+      ]
+    },
+    {
+      "id": "SRC-133",
+      "title": "Wisely｜景美廖家古早味雞蛋糕 2026實訪",
+      "url": "https://wisely.tw/read-34651.html",
+      "sourceType": "旅遊媒體",
+      "credibility": "C－單一非官方來源",
+      "adoptedContent": "2026年仍在景美夜市營業，以及古早味雞蛋糕品項。",
+      "verificationNote": "只作近期實地交叉佐證，不採用價格與主觀評價。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "部分採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-32"
+      ],
+      "vendorIds": [
+        "BIZ-141"
+      ]
+    },
+    {
+      "id": "SRC-139",
+      "title": "經濟部市場名攤｜汐止觀光夜市攤商名單",
+      "url": "https://serv.gcis.nat.gov.tw/marketyes/website/vendors_list?page1=4&page2=226",
+      "sourceType": "官方網站",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "汐止觀光夜市攤商資料，以及邱記龍鳳腿位於13號攤的關聯。",
+      "verificationNote": "用於確認店名、所屬夜市與攤位，不推論每日營業時段。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-34"
+      ],
+      "vendorIds": [
+        "BIZ-146"
+      ]
+    },
+    {
+      "id": "SRC-146",
+      "title": "想吃美食｜廟東清水排骨麵店 2026實訪",
+      "url": "https://wanteatfood.com/88975",
+      "sourceType": "旅遊媒體",
+      "credibility": "C－單一非官方來源",
+      "adoptedContent": "2026年清水排骨麵店仍於中正路167巷營業，以及排骨酥麵、排骨酥米粉品項。",
+      "verificationNote": "只採用近期營運、地址與品項；不採用價格及主觀評論。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "部分採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-36"
+      ],
+      "vendorIds": [
+        "BIZ-149"
+      ]
+    },
+    {
+      "id": "SRC-144",
+      "title": "臺中觀光旅遊網｜豐原廟東夜市照片頁",
+      "url": "https://travel.taichung.gov.tw/zh-tw/multimedia/album/7916",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "豐原廟東夜市持續營運、廟口商圈定位，以及清水排骨麵代表店家。",
+      "verificationNote": "官方頁於 2026-09-22 更新；店家時段仍以各店公告為準。",
+      "publishedAt": "2026-09-22",
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-36"
+      ],
+      "vendorIds": [
+        "BIZ-149"
+      ]
+    },
+    {
+      "id": "SRC-140",
+      "title": "新北市經發局｜新北嚴選－邱記龍鳳腿",
+      "url": "https://www.economic.ntpc.gov.tw/Specialty/gift",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "邱記龍鳳腿於汐止觀光夜市經營及龍鳳腿代表品項。",
+      "verificationNote": "與經濟部名攤資料交叉確認，不採用頁面以外易變資訊。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-34"
+      ],
+      "vendorIds": [
+        "BIZ-146"
+      ]
+    },
+    {
+      "id": "SRC-166",
+      "title": "經濟部商圈資料｜光華夜市發展促進會",
+      "url": "https://serv.gcis.nat.gov.tw/district/districts/109?district=254",
+      "sourceType": "官方網站",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "光華夜市發展促進會、商圈範圍、約125家會員店家及在地商圈定位。",
+      "verificationNote": "用於確認商圈組織與規模；不由頁面推論個別店家時段。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-40"
+      ],
+      "vendorIds": []
+    },
+    {
+      "id": "SRC-162",
+      "title": "食尚玩家｜味泉米糕",
+      "url": "https://supertaste.tvbs.com.tw/infocard/22437",
+      "sourceType": "新聞媒體",
+      "credibility": "B－可信媒體或多方交叉確認",
+      "adoptedContent": "味泉米糕店名、忠孝路151號、電話與店家營業日資訊。",
+      "verificationNote": "採用店名、地址與聯絡／營業資訊；實際時段仍以店家最新公告為準。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "部分採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-39"
+      ],
+      "vendorIds": [
+        "BIZ-155"
+      ]
+    },
+    {
+      "id": "SRC-137",
+      "title": "台灣旅行趣｜阿文餛飩鹹湯圓",
+      "url": "https://twsala40.com/awen/",
+      "sourceType": "旅遊媒體",
+      "credibility": "C－單一非官方來源",
+      "adoptedContent": "阿文餛飩鹹湯圓店名、三和夜市關聯及餛飩鹹圓、綜合湯品項。",
+      "verificationNote": "與官方夜市頁交叉確認；不採用價格與主觀評論。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "部分採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-33"
+      ],
+      "vendorIds": [
+        "BIZ-144"
+      ]
+    },
+    {
+      "id": "SRC-148",
+      "title": "衛福部食藥署｜115年冰品稽查－金樹冰果室",
+      "url": "https://www.fda.gov.tw/tc/includes/GetFile.ashx?id=f639251770356472220&type=4",
+      "sourceType": "官方網站",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "金樹冰果室店名、中正路167巷2-13號、鳳梨冰品項及稽查結果合格。",
+      "verificationNote": "只採用店名、地址、品項與檢驗結果；不推論固定營業時間。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-36"
+      ],
+      "vendorIds": [
+        "BIZ-150"
+      ]
+    },
+    {
+      "id": "SRC-151",
+      "title": "食尚玩家｜彭記蔥油餅 2026",
+      "url": "https://supertaste.tvbs.com.tw/amp/esg/358554",
+      "sourceType": "新聞媒體",
+      "credibility": "B－可信媒體或多方交叉確認",
+      "adoptedContent": "2026年彭記蔥油餅仍列於東門夜市相關節目與專題，代表品項為蔥油餅。",
+      "verificationNote": "與宜蘭官方夜市頁交叉確認；不採用價格或主觀評論。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "部分採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-37"
+      ],
+      "vendorIds": [
+        "BIZ-151"
+      ]
+    },
+    {
+      "id": "SRC-156",
+      "title": "屏東旅遊網｜福記餛飩",
+      "url": "https://www.i-pingtung.com/Pingtungfood/%E7%A6%8F%E8%A8%98%E9%A4%9B%E9%A3%A9/%E5%B1%8F%E6%9D%B1%E5%B8%82",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "福記餛飩位於屏東民族夜市巷內，以及餛飩類代表品項。",
+      "verificationNote": "官方旅遊頁；營業時間改以店家最新公告為準。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-38"
+      ],
+      "vendorIds": [
+        "BIZ-154"
+      ]
+    },
+    {
+      "id": "SRC-136",
+      "title": "鏡新聞｜萬粒肉圓 2026實訪",
+      "url": "https://www.mnews.tw/story/mm-20260506-523fod-152028",
+      "sourceType": "新聞媒體",
+      "credibility": "B－可信媒體或多方交叉確認",
+      "adoptedContent": "萬粒肉圓於三和觀光夜市持續營業，以及肉圓、貢丸湯代表品項。",
+      "verificationNote": "與官方夜市頁交叉確認；不採用價格及主觀口味評論。",
+      "publishedAt": "2026-05-06",
+      "checkedAt": "2026-09-22",
+      "status": "部分採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-33"
+      ],
+      "vendorIds": [
+        "BIZ-143"
+      ]
+    },
+    {
+      "id": "SRC-155",
+      "title": "1111商搜網｜阿狗切仔擔近期店家資料",
+      "url": "https://trade.1111.com.tw/Comp_Info?vNo=268278",
+      "sourceType": "其他公開資料",
+      "credibility": "C－單一非官方來源",
+      "adoptedContent": "阿狗切仔擔近期店名與營運聯絡資料仍可查得。",
+      "verificationNote": "只作近期存在交叉佐證，不採用未經官方確認的易變資訊。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "部分採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-38"
+      ],
+      "vendorIds": [
+        "BIZ-153"
+      ]
+    },
+    {
+      "id": "SRC-145",
+      "title": "臺中觀光旅遊網｜豐原廟東復興商圈分類頁",
+      "url": "https://travel.taichung.gov.tw/zh-tw/Attractions/ListByClassification",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "豐原廟東復興商圈目前仍列於官方景點分類。",
+      "verificationNote": "用於確認商圈名稱與現行收錄，不延伸推論店家營業時段。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-36"
+      ],
+      "vendorIds": []
+    },
+    {
+      "id": "SRC-158",
+      "title": "臺中觀光旅遊網｜忠孝路觀光夜市",
+      "url": "https://travel.taichung.gov.tw/zh-tw/diary/list?page=6",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "忠孝路觀光夜市於2026年仍由臺中市觀旅局介紹，以及老牌街道型夜市特色。",
+      "verificationNote": "官方內容於 2026-07-09 發布；不由列表推論個別店家時段。",
+      "publishedAt": "2026-07-09",
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-39"
+      ],
+      "vendorIds": []
+    },
+    {
+      "id": "SRC-169",
+      "title": "988人力銀行｜光華老店豬心冬粉近期店家資料",
+      "url": "https://www.988job.com.tw/tw/index.asp?au_id=71&id=88002&sub_id=75",
+      "sourceType": "其他公開資料",
+      "credibility": "C－單一非官方來源",
+      "adoptedContent": "光華老店豬心冬粉近期仍有商家／徵才資料可查。",
+      "verificationNote": "只作近期存在交叉佐證；不採用未確認的營業時段、薪資或其他非網站資料。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "部分採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-40"
+      ],
+      "vendorIds": [
+        "BIZ-158"
+      ]
+    },
+    {
+      "id": "SRC-130",
+      "title": "臺北市市場處｜源芳刈包",
+      "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=D4496963450ADC7B&s=7B73453497E179BB&sms=F63CC5C6C26B7C98",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "源芳刈包店名、華西街關聯與刈包代表品項。",
+      "verificationNote": "只採用華西街本店資訊，不混入其他據點。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-31"
+      ],
+      "vendorIds": [
+        "BIZ-139"
+      ]
+    },
+    {
+      "id": "SRC-131",
+      "title": "臺北市市場處｜小王煮瓜",
+      "url": "https://www.tcma.gov.taipei/News_Content.aspx?n=D4496963450ADC7B&s=8AE56C382C59F9C2&sms=F63CC5C6C26B7C98",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "小王煮瓜店名、華西街關聯、滷肉飯與瓜仔肉湯代表品項。",
+      "verificationNote": "只採用華西街本店資訊；不採用其他合作商品或據點。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-31"
+      ],
+      "vendorIds": [
+        "BIZ-140"
+      ]
+    },
+    {
+      "id": "SRC-143",
+      "title": "經濟部｜114年度計畫－豬桑三代手作豬血糕",
+      "url": "https://www.moea.gov.tw/MNS/populace/news/wHandNews_File.ashx?file_id=121869",
+      "sourceType": "官方網站",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "豬桑三代手作豬血糕店名、興仁花園夜市B15攤位關聯與手作豬血糕品項。",
+      "verificationNote": "只採用店名、所屬夜市、攤位與品項；不採用舊價格。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "部分採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-35"
+      ],
+      "vendorIds": [
+        "BIZ-148"
+      ]
+    },
+    {
+      "id": "SRC-129",
+      "title": "臺北旅遊網｜華西街觀光夜市",
+      "url": "https://travel.taipei/zh-tw/attraction/details/1535",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "華西街觀光夜市名稱、位置、觀光夜市定位與艋舺街區特色。",
+      "verificationNote": "官方景點頁；不由頁面推論個別店家即時營業狀態。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-31"
+      ],
+      "vendorIds": []
+    },
+    {
+      "id": "SRC-168",
+      "title": "高雄市政府｜食品抽驗資料－光華老店豬心冬粉",
+      "url": "https://orgws.kcg.gov.tw/001/KcgOrgUploadFiles/463/relfile/77775/347417/dd103366-7aa9-45d2-997d-6eaec2bcf553.pdf",
+      "sourceType": "官方網站",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "光華老店豬心冬粉店名、光華二路429號及政府抽驗紀錄。",
+      "verificationNote": "資料較早，只採用店名、地址及曾受官方抽驗之事實；不採用舊營業時間。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "部分採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-40"
+      ],
+      "vendorIds": [
+        "BIZ-158"
+      ]
+    },
+    {
+      "id": "SRC-141",
+      "title": "桃園觀光導覽網｜興仁夜市",
+      "url": "https://travel.tycg.gov.tw/zh-tw/consume/detail/1993",
+      "sourceType": "地方政府或觀光單位",
+      "credibility": "A－官方或第一手資料",
+      "adoptedContent": "興仁夜市現行名稱、長興路46號、星期二／五／六／日17:00－00:00及大型夜市特色。",
+      "verificationNote": "官方頁於 2026-06-09 更新；別名保留於備註。",
+      "publishedAt": "2026-06-09",
+      "checkedAt": "2026-09-22",
+      "status": "可採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-35"
+      ],
+      "vendorIds": []
+    },
+    {
+      "id": "SRC-167",
+      "title": "Foodpanda｜光華夜市林家水餃麵食小館",
+      "url": "https://www.foodpanda.com.tw/restaurant/jzr4/guang-hua-ye-shi-lin-jia-shui-jiao-mian-shi-xiao-guan",
+      "sourceType": "其他公開資料",
+      "credibility": "C－單一非官方來源",
+      "adoptedContent": "店名包含光華夜市、近期仍可接單，以及水餃、餡餅、麵食品項。",
+      "verificationNote": "只採用近期存在、夜市識別與品項；不採用價格、評分、評論或平台營業判斷。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "部分採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-40"
+      ],
+      "vendorIds": [
+        "BIZ-157"
+      ]
+    },
+    {
+      "id": "SRC-157",
+      "title": "食尚玩家｜福記餛飩",
+      "url": "https://supertaste.tvbs.com.tw/infocard/30275",
+      "sourceType": "新聞媒體",
+      "credibility": "B－可信媒體或多方交叉確認",
+      "adoptedContent": "福記餛飩店名、地址，以及餛飩湯、炸餛飩、麻醬麵等品項。",
+      "verificationNote": "與屏東官方旅遊頁交叉確認；不採用價格與主觀評價。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "部分採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-38"
+      ],
+      "vendorIds": [
+        "BIZ-154"
+      ]
+    },
+    {
+      "id": "SRC-164",
+      "title": "食尚玩家｜正老牌麵線糊",
+      "url": "https://supertaste.tvbs.com.tw/infocard/15344",
+      "sourceType": "新聞媒體",
+      "credibility": "B－可信媒體或多方交叉確認",
+      "adoptedContent": "正老牌麵線糊店名、地址，以及肉羹／蚵仔／魷魚嘴麵線品項。",
+      "verificationNote": "與臺中官方店家頁交叉確認；不採用價格及主觀評價。",
+      "publishedAt": null,
+      "checkedAt": "2026-09-22",
+      "status": "部分採用",
+      "needsRecheck": false,
+      "nightMarketIds": [
+        "NM-39"
+      ],
+      "vendorIds": [
+        "BIZ-156"
+      ]
     }
   ]
-}</script>
+}
+</script>
 <script>
 (() => {
   "use strict";
@@ -7267,8 +8930,9 @@ h1 span{display:block}
     const unique = items => new Set(items.map(item => item.id)).size === items.length;
     const marketIds = new Set(DATA.nightMarkets.map(item => item.id));
     const sourceIds = new Set(DATA.sources.map(item => item.id));
-    if (DATA.nightMarkets.length !== 30) errors.push(`夜市總數應為 30，實際為 ${DATA.nightMarkets.length}`);
-    if (DATA.vendors.length !== 138) errors.push(`商家總數應為 138，實際為 ${DATA.vendors.length}`);
+    if (DATA.nightMarkets.length !== 40) errors.push(`夜市總數應為 40，實際為 ${DATA.nightMarkets.length}`);
+    if (DATA.vendors.length !== 158) errors.push(`商家總數應為 158，實際為 ${DATA.vendors.length}`);
+    if (DATA.sources.length !== 169) errors.push(`來源總數應為 169，實際為 ${DATA.sources.length}`);
     if (new Set(DATA.nightMarkets.map(item => item.county)).size !== 19) errors.push("已收錄縣市應為 19 個");
     if (!unique(DATA.nightMarkets) || !unique(DATA.vendors) || !unique(DATA.sources)) errors.push("資料中有重複 ID");
     if (DATA.nightMarkets.some(item => item.status !== "已查證")) errors.push("有夜市尚未查證");
@@ -7280,7 +8944,7 @@ h1 span{display:block}
     if (mapCount !== 22) errors.push(`地圖應有 22 個行政區，實際為 ${mapCount}`);
     document.getElementById("validation").textContent = errors.join("｜");
     if (errors.length) console.error("夜市偵探資料驗證失敗：", errors);
-    else console.info("夜市偵探資料驗證通過：30 個夜市、138 家商家、19 個已收錄縣市、22 個可操作行政區。");
+    else console.info("夜市偵探資料驗證通過：40 個夜市、158 家商家、169 筆來源、19 個已收錄縣市、22 個可操作行政區。");
     return errors;
   }
 
